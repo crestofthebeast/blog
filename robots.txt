@@ -1,1 +1,1 @@
-Sitemap: https://crestofthebeast.github.io/blog/sitemap.xml
+Sitemap: https://github.com/crestofthebeast/blog/sitemap.xml
