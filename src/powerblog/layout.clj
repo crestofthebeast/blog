@@ -7,6 +7,7 @@
    [:body.py-8
     content]])
 
+;; TODO: some kind of function to put pipes between things here
 (def header
   [:header.mx-auto.dark:prose-invert.prose.mb-8
    [:a {:href "/"} "blackmoonkite"]
