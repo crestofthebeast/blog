@@ -9,7 +9,13 @@
 
     (re-find #"^index(-nb)?\.md" file-name)
     :page.kind/frontpage
-    
+
+    (re-find #"^about\.md" file-name)
+    :page.kind/about
+
+    (re-find #"^dhole\.md" file-name)
+    :page.kind/dhole
+
     (re-find #"^\.md$" file-name)
     :page.kind/article))
 

@@ -1,5 +1,5 @@
 #:powerblog.pages.frontpage
-{:blog-posts [:fn/str "Blog Posts ({{:n}})"]}
+{:blog-posts [:fn/str "blog posts | {{:n}}"]}
 
 #:powerblog.pages.blog-lising
-{:page-title "Blog Posts"}
+{:page-title "blog posts"}

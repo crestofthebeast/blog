@@ -5,7 +5,7 @@
 
 
 (def config
-  {:site/title "avery's blog"
+  {:site/title "avery j"
    :powerpack/render-page #'pages/render-page
    :powerpack/create-ingest-tx #'ingest/create-tx
    :powerpack/on-ingested #'ingest/on-ingested

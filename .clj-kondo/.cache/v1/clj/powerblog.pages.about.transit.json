@@ -1,0 +1,1 @@
+["^ ","~$render-page",["^ ","~:row",7,"~:col",1,"~:fixed-arities",["~#set",[2]],"~:name","^0","~:ns","~$powerblog.pages.about","~:top-ns","~$powerblog.pages.dhole","~:arities",["^ ","~i2",["^ ","~:ret","~:vector","~:arglist-str","[context page]"]],"~:type","~:fn"],"~:filename","/var/home/avery/Documents/dev/blog/src/powerblog/pages/dhole.clj"]

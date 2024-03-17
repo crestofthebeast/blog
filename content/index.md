@@ -4,4 +4,4 @@
 
 # blackmoonkite
 
-A website and/or blog where I gather thoughts on programming, writing, games, and other topics of my own navel-gazing interest.
+A website-blog coalascence where I gather thoughts on programming, writing, games, and other topics of my interest.
