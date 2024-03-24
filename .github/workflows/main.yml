@@ -7,8 +7,10 @@ on:
       - content/**
       - src/**
     branches:
-      - master
-      - feat/powerpack
+      "main"
+    
+  workflow_dispatch:
+    
 jobs:
   build-and-deploy:
     name: "Build Powerpack"
