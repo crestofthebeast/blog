@@ -15,10 +15,9 @@
 (defn render-page [context page]
   (let [blog-posts (get-blog-posts (:app/db context))]
     (layout/layout {:title "blackmoonkite"}
-            [:div.flex.justify-center.w-full
-            [:article.prose.dark:prose-invert
-             (md/render-html (:page/body page))
-             [:h2 [:i18n ::blog-posts {:n (count blog-posts)}]]
-             [:ul
-              (for [blog-post (get-blog-posts (:app/db context))]
-                [:li [:a {:href (:page/uri blog-post)} (:page/title blog-post)]])]]])))
+             [:article.prose.dark:prose-invert.max-w-screen-md.mx-auto
+              (md/render-html (:page/body page))
+              [:h2 [:i18n ::blog-posts {:n (count blog-posts)}]]
+              [:ul
+               (for [blog-post (get-blog-posts (:app/db context))]
+                 [:li [:a {:href (:page/uri blog-post)} (:page/title blog-post)]])]])))

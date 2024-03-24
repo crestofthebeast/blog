@@ -1,16 +1,23 @@
 (ns powerblog.layout)
 
 
-;; TODO: some kind of function to put pipes between things here
 (def header
-  [:header.mx-auto.dark:prose-invert.prose.mb-4.space-x-4
-   [:a {:href "/"} "home"]
-   [:a.flex-auto.self-end {:href "/about/"} "about"]])
+  [:header.dark:prose-invert.prose.max-w-screen.mx-24.mb-4
+   [:nav.flex.items-center.justify-between.border-b.border-darkish-grey.dark:border-white.max-h-12.relative
+    [:ul.list-none.pl-0
+     [:li
+      [:a {:href "/"} "home"]]]
+    [:ul.list-none.pl-0.hidden.lg:block
+     [:li
+      [:a {:href "/"} "programming resources"]]]
+    [:ul.list-none.pl-0
+     [:li
+      [:a {:href "/about/"} "about"]]]]])
 
 (defn layout [{:keys [title]} & content]
   [:html.dark:bg-dark-grey.bg-beige.font-ibm-plex-sans.text-darkish-grey.p-8
    header
    [:head
     (when title [:title title])]
-   [:body.py-8
+   [:body
     content]])

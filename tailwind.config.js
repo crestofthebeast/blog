@@ -17,7 +17,7 @@ module.exports = {
       typography: theme => ({
         DEFAULT: {
           css: {
-
+            maxWidth: '100%',
             a: {
               color: theme('colors.pale-blue')
             },
