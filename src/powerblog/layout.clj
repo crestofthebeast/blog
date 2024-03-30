@@ -2,7 +2,7 @@
 
 
 (def header
-  [:header.dark:prose-invert.prose.max-w-screen.mx-24.mb-4
+  [:header.dark:prose-invert.prose.max-w-screen.mx-auto.pb-6
    [:nav.flex.items-center.justify-between.border-b.border-darkish-grey.dark:border-white.max-h-12.relative
     [:ul.list-none.pl-0
      [:li
