@@ -2,8 +2,8 @@
 
 
 (def header
-  [:header.dark:prose-invert.prose.max-w-screen.mx-auto.pb-6
-   [:nav.flex.items-center.justify-between.border-b.border-darkish-grey.dark:border-white.max-h-12.relative
+  [:header.prose.max-w-screen.mx-auto.pb-6
+   [:nav.flex.items-center.justify-between.border-b.border-gentle-black.max-h-12.relative
     [:ul.list-none.pl-0
      [:li
       [:a {:href "/"} "home"]]]
@@ -15,7 +15,7 @@
       [:a {:href "/about/"} "about"]]]]])
 
 (defn layout [{:keys [title]} & content]
-  [:html.dark:bg-dark-grey.bg-beige.font-ibm-plex-sans.text-darkish-grey.p-8
+  [:html.bg-sepia.font-ibm-plex-sans.text-gentle-black.p-8
    header
    [:head
     (when title [:title title])]

@@ -16,7 +16,7 @@
   (let [title (str "Posts About: " (name (:tag-page/tag page)))]
     (layout/layout
      {:title title}
-     [:article.prose.dark:prose-invert
+     [:article.prose
       [:h1 title]
       [:ul
        (for [blog-post (get-blog-posts (:app/db context) (:tag-page/tag page))]
