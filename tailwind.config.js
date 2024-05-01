@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.clj"],
+  content: ["./src/**/*.clj", "./content/**/*.md"],
   theme: {
     extend: {
       colors: {
@@ -18,6 +18,12 @@ module.exports = {
         DEFAULT: {
           css: {
             maxWidth: '100%',
+            "code::before": {
+              content: "none",
+            },
+            "code::after": {
+              content: "none",
+            },
             a: {
               // color: theme('colors.pale-blue')
             },

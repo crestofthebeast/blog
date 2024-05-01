@@ -1,1 +1,0 @@
-["^ ","~$render-page",["^ ","~:row",5,"~:col",1,"~:fixed-arities",["~#set",[2]],"~:name","^0","~:ns","~$powerblog.pages.article","~:top-ns","^7","~:arities",["^ ","~i2",["^ ","~:ret","~:vector","~:arglist-str","[context page]"]],"~:type","~:fn"],"~:filename","/var/home/avery/Documents/dev/blog/src/powerblog/pages/article.clj"]

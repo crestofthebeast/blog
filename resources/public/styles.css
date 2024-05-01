@@ -444,6 +444,49 @@ video {
   display: none;
 }
 
+html {
+  font-size: 18px;
+}
+
+/* de-pad headings */
+
+h1,
+  .prose h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2,
+  .prose h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h3,
+  .prose h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+.footnotes p {
+  display: block;
+  padding-right: 0.5rem;
+}
+
+.footnotes li {
+  position: relative;
+}
+
+.footnotes .footnote-backref {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -763,11 +806,11 @@ video {
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
-  content: "`";
+  content: none;
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
-  content: "`";
+  content: none;
 }
 
 .prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -1119,6 +1162,12 @@ video {
 .text-gentle-black {
   --tw-text-opacity: 1;
   color: rgb(55 35 38 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+
+  src: url("fonts/IBMPlexSans-Regular.ttf");
 }
 
 @media (min-width: 1024px) {

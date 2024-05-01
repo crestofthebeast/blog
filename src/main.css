@@ -2,11 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("fonts/IBMPlexSans-Regular.ttf");
+}
 
 @layer base {
-    html {
-        font-size: 20px;
-    }
+  html {
+      font-size: 18px;
+  }
+
+  /* de-pad headings */
+
+  h1,
+  .prose h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+  }
+
+  h2,
+  .prose h2 {
+      margin-top: 0;
+      margin-bottom: 8px;
+  }
+
+  h3,
+  .prose h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+  }
+
+  .footnotes hr {
+    @apply hidden;
+  }
+
+  .footnotes p {
+    @apply block pr-2;
+  }
+
+  .footnotes li {
+    @apply relative;
+  }
+
+  .footnotes .footnote-backref {
+    @apply absolute top-0 left-full;
+  }
 }
