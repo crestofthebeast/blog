@@ -1,6 +1,6 @@
 (ns powerblog.ingest
   (:require
-    [datomic.api :as d]))
+   [datomic.api :as d]))
 
 (defn get-page-kind [file-name]
   (cond
@@ -15,6 +15,9 @@
 
     (re-find #"^dhole\.md" file-name)
     :page.kind/dhole
+
+    (re-find #"^teranoptia\.md" file-name)
+    :page.kind/teranoptia-playground
 
     (re-find #"^\.md$" file-name)
     :page.kind/article))

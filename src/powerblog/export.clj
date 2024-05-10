@@ -4,5 +4,4 @@
 
 (defn ^:export export! [& args]
   (-> blog/config
-      (assoc :site/base-url "https://www.blackmoonkite.cc")
-      export/export!))
+      (assoc :site/base-url "https://www.blackmoonkite.cc") export/export!))

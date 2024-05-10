@@ -6,6 +6,7 @@
    [powerblog.pages.frontpage :as frontpage]
    [powerblog.pages.blog-post :as blog-post]
    [powerblog.pages.dhole :as dhole]
+   [powerblog.pages.teranoptia :as tera]
    [powerblog.pages.tag :as tag]))
 
 (defn render-page [context page]
@@ -15,5 +16,6 @@
     :page.kind/blog-post (blog-post/render-page context page)
     :page.kind/blog-listing (blog-listing/render-page context page)
     :page.kind/tag (tag/render-page context page)
+    :page.kind/teranoptia-playground (tera/render-page context page)
     :page.kind/dhole (dhole/render-page context page)
     :page.kind/article (article/render-page context page)))

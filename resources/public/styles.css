@@ -453,7 +453,7 @@ html {
 h1,
   .prose h1 {
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: ;
 }
 
 h2,
@@ -1113,6 +1113,10 @@ h3,
   max-height: 3rem;
 }
 
+.min-h-96 {
+  min-height: 24rem;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -1127,6 +1131,18 @@ h3,
 
 .justify-between {
   justify-content: space-between;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b {
@@ -1159,15 +1175,29 @@ h3,
   font-family: IBM Plex Sans, sans-serif;
 }
 
+.font-teranoptia {
+  font-family: Teranoptia;
+}
+
 .text-gentle-black {
   --tw-text-opacity: 1;
   color: rgb(55 35 38 / var(--tw-text-opacity));
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken;
 }
 
 @font-face {
   font-family: "IBM Plex Sans";
 
   src: url("fonts/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Teranoptia";
+
+  src: url("fonts/Teranoptia-Furiae.ttf");
 }
 
 @media (min-width: 1024px) {

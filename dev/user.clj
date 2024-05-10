@@ -1,25 +1,29 @@
 (ns user
-  (:require [powerblog.core :as blog]
-            [powerpack.dev :as dev]))
+  (:require
+   [powerblog.core :as blog]
+   [powerpack.dev :as dev]))
 
 (defmethod dev/configure! :default []
   blog/config)  ;; 1
 
 (comment
-  (set! *print-namespace-maps* false)
-  
-  (dev/start)   ;; 2
-  (dev/stop)    ;; 3
-  (dev/reset)   ;; 4
+  (def p (p/open {:launcher :vs-code}))
+  {:hello #{:world :mars :venus}
+   :goodbye #{:love :my-only-friend}}
 
-  (def app (dev/get-app)) ;; 5
+  (comment
+    (set! *print-namespace-maps* false)
 
-  (require '[datomic.api :as d])
+    (dev/start)   ;; 2
+    (dev/stop)    ;; 3
+    (dev/reset)   ;; 4
 
-  (def db (d/db (:datomic/conn app)))
+    (def app (dev/get-app)) ;; 5
 
-  (->> (d/entity db [:page/uri "blog-posts/first-post/"])
-        :blog-post/author
-        (into {}))
+    (require '[datomic.api :as d])
 
-  )
+    (def db (d/db (:datomic/conn app)))
+
+    (->> (d/entity db [:page/uri "blog-posts/first-post/"])
+         :blog-post/author
+         (into {}))))

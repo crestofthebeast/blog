@@ -11,7 +11,8 @@ module.exports = {
       'fire-red' : '#8f2f30',
       },
       fontFamily: {
-        'ibm-plex-sans': ['IBM Plex Sans', 'sans-serif']
+        'ibm-plex-sans': ['IBM Plex Sans', 'sans-serif'],
+        'teranoptia': ['Teranoptia']
       },
       textColor: 'light-grey',
       typography: theme => ({

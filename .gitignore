@@ -8,3 +8,4 @@ tmp/
 /.clj-kondo/.cache/v1
 .clj-kondo/.cache/v1/clj/user.transit.json
 /.lsp
+/.cpcache
