@@ -1101,6 +1101,11 @@ h3,
   margin-right: auto;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -1117,12 +1122,12 @@ h3,
   min-height: 24rem;
 }
 
-.max-w-screen-md {
-  max-width: 768px;
-}
-
 .max-w-screen-lg {
   max-width: 1024px;
+}
+
+.max-w-screen-md {
+  max-width: 768px;
 }
 
 .list-none {
@@ -1145,10 +1150,6 @@ h3,
   word-break: break-all;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1163,8 +1164,33 @@ h3,
   background-color: rgb(255 234 216 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-hl-sepia {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 216 191 / var(--tw-bg-opacity));
+}
+
 .p-8 {
   padding: 2rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .pb-6 {
@@ -1183,11 +1209,6 @@ h3,
   font-family: Teranoptia;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -1198,8 +1219,21 @@ h3,
   color: rgb(55 35 38 / var(--tw-text-opacity));
 }
 
+.bg-blend-screen {
+  background-blend-mode: screen;
+}
+
+.bg-blend-overlay {
+  background-blend-mode: overlay;
+}
+
 .bg-blend-darken {
   background-blend-mode: darken;
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @font-face {
@@ -1212,6 +1246,23 @@ h3,
   font-family: "Teranoptia";
 
   src: url("fonts/Teranoptia-Furiae.ttf");
+}
+
+.focus\:bg-hl-sepia:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 216 191 / var(--tw-bg-opacity));
+}
+
+.focus\:bg-hl-sepia\/50:focus {
+  background-color: rgb(250 216 191 / 0.5);
+}
+
+.focus\:bg-hl-sepia\/60:focus {
+  background-color: rgb(250 216 191 / 0.6);
+}
+
+.focus\:bg-hl-sepia\/40:focus {
+  background-color: rgb(250 216 191 / 0.4);
 }
 
 @media (min-width: 1024px) {
