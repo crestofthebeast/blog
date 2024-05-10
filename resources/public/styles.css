@@ -1121,6 +1121,10 @@ h3,
   max-width: 768px;
 }
 
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -1177,6 +1181,16 @@ h3,
 
 .font-teranoptia {
   font-family: Teranoptia;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-gentle-black {

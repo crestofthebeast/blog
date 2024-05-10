@@ -5,6 +5,7 @@
 
 (defn render-page [context page]
   (layout/layout {:title "Teranoptia Playground"}
-                 [:article.prose.max-w-screen-md.mx-auto
+                 [:article.prose.max-w-screen-lg.mx-auto
                   (md/render-html (:page/body page))
-                  [:blockquote.min-h-96.border.border-gentle-black.font-teranoptia.break-all.text-wrap {:contenteditable "true"}]]))
+                  [:blockquote.min-h-96.pl-0.border.border-gentle-black.font-teranoptia.break-all.text-wrap.text-6xl
+                   {:contenteditable "true" :autocomplete "off" :autocorrect "off" :autocapitalize "off" :spellcheck "false"} "sttnr"]]))
