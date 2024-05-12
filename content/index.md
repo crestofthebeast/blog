@@ -6,4 +6,4 @@
 
 A website-blog coalascence where I gather thoughts on programming, writing, games, and other topics of my interest.
 
-This website is currently under construction. Things may be unfinished or nonfunctionial.
+This website is currently under construction. Things may be unfinished or nonfunctional.

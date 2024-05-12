@@ -14,25 +14,28 @@
 
 @layer base {
   html {
-      font-size: 18px;
+      font-size: 17.2px;
   }
 
   /* de-pad headings */
 
   h1,
   .prose h1 {
+      font-size: 26px;
       margin-top: 0;
       margin-bottom: ;
   }
 
   h2,
   .prose h2 {
+      font-size: 24px;
       margin-top: 0;
       margin-bottom: 8px;
   }
 
   h3,
   .prose h3 {
+      font-size: 22px;
       margin-top: 0;
       margin-bottom: 8px;
   }

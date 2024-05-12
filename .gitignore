@@ -9,3 +9,5 @@ tmp/
 .clj-kondo/.cache/v1/clj/user.transit.json
 /.lsp
 /.cpcache
+/.dir-locals.el
+.nrepl-port
