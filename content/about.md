@@ -11,5 +11,6 @@ I'm passionate about games development and progamming, ergonomics and input meth
 ### Aside: This Blog
 This blog was written in the lovely [Clojure](https://clojure.org/) language using the [Powerpack](https://github.com/cjohansen/powerpack) toolkit. The colour scheme is based on [ef-arbutus](https://github.com/protesilaos/ef-themes/blob/main/ef-arbutus-theme.el). There is currently no dark mode - in the interim, i recommend using [Dark Reader](https://darkreader.org/).
 
-### Contact
-You can contact me at inquire@blackmoonkite.cc, or find my work on [Github](https://github.com/crestofthebeast/).
+### Contact / Socials
+You can find me on [Mastodon](https://mastodon.gamedev.place/@crestofthebeast), [Twitter](https://twitter.com/blackmoonkite) or [Github](https://github.com/crestofthebeast).
+You can contact me at inquire@blackmoonkite.cc.
