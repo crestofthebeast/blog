@@ -454,7 +454,7 @@ h1,
   .prose h1 {
   font-size: 26px;
   margin-top: 0;
-  margin-bottom: ;
+  margin-bottom:;
 }
 
 h2,
@@ -1162,6 +1162,11 @@ h3,
   border-color: rgb(55 35 38 / var(--tw-border-opacity));
 }
 
+.bg-hl-sepia {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 216 191 / var(--tw-bg-opacity));
+}
+
 .bg-sepia {
   --tw-bg-opacity: 1;
   background-color: rgb(255 234 216 / var(--tw-bg-opacity));
@@ -1177,6 +1182,10 @@ h3,
 
 .pl-0 {
   padding-left: 0px;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .font-ibm-plex-sans {

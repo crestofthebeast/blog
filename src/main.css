@@ -3,41 +3,41 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "IBM Plex Sans";
-    src: url("fonts/IBMPlexSans-Regular.ttf");
+  font-family: "IBM Plex Sans";
+  src: url("fonts/IBMPlexSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Teranoptia";
-    src: url("fonts/Teranoptia-Furiae.ttf");
+  font-family: "Teranoptia";
+  src: url("fonts/Teranoptia-Furiae.ttf");
 }
 
 @layer base {
   html {
-      font-size: 17.2px;
+    font-size: 17.2px;
   }
 
   /* de-pad headings */
 
   h1,
   .prose h1 {
-      font-size: 26px;
-      margin-top: 0;
-      margin-bottom: ;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom:;
   }
 
   h2,
   .prose h2 {
-      font-size: 24px;
-      margin-top: 0;
-      margin-bottom: 8px;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
   }
 
   h3,
   .prose h3 {
-      font-size: 22px;
-      margin-top: 0;
-      margin-bottom: 8px;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 8px;
   }
 
   .footnotes hr {
