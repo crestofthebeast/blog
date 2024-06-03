@@ -1,0 +1,53 @@
+:page/title Lessons Learned
+:blog-post/tags [:blog :programming :gamedev]
+:blog-post/author {:person/id avery}
+:open-graph/title Lessons Learned
+:page/body
+> In which the girl recounts knowledge accrued in her floundering.
+# Lesson the First: Nobody Knows What They're Doing
+It is *intensely* easy to convince oneself that other developers have a handle on some esoteric knowledgebase you will never hope to be privy to. It's something I find myself continuing to do despite my best efforts.[^1] This is, however, untrue. People never really know what they're doing unless they are extremely intimate with a specific domain -- and in one like fighting games, the amount of people this describes is probably on the low side of triple digits. Even within this domain, many people do not have familiarity with every cog that drives a studio like *French Bread* or *Arc System Works*. 
+
+In talking with fighting (and other) game developers over the years, one of the greatest lessons I've learned is that the people who really make things tend to be the ones who bite off more than they can chew, then keep chewing.[^2] This (alongside years upon years of thinking and research) gives me the gall to think I can actually attempt a fighting game now. At this point, I suppose, it's about being confident that I truly know what I'm getting myself into. Alongside this, the beginnings of a formal education in games design and development (and observations of general malaise in my local fighting game scene towards modern games' directions) has given me a decent boost in confidence that my ideas probably aren't awful. And that there are fellow sickos out there. [^3]
+
+[^1]: I think part of this is seeing so many people on the internet focused on correctness. These people likely aren't making many things and know much less about what's going on than they put on, but a Reddit account makes it very easy to project unearned self-confidence.  
+[^2]: This is consistent with the [Cult of Done's](https://web.archive.org/web/20240204025105/https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13) approach to things.
+[^3]: I'm not sure where I first heard the term *sicko game* -- perhaps in a Dragons Dogma 2 review? Regardless, I find it extremely useful for describing the kinds of no-mass-appeal game design I can become obsessed with.
+# Lesson the Second: Oh, This Is Hard
+Modern fighting games are embarassingly complex endeavours for how simple their basic premise is. You must serialise state at least sixty times a second, roll custom networking and physics, and write an entirely deterministic cross-platform simulation to be taken seriously by the community. All of this needs to be wrapped inside dev tooling that permits fast iteration and easy patch-pushing. This section is to be kept intentionally brief in service of not having five thousand words of technical ranting -- that will be saved for another time.[^4]
+
+The long and short of it is that I will need to roll a lot of custom code, tooling, and data structures, which I'll be doing in Godot with a great deal of assistance from David Snopek's work. Custom tooling over things like [Ikemen](https://github.com/ikemen-engine/Ikemen-GO/) and [Castagne](http://castagneengine.com/) is especially necessary if I'd like to do my own fancy things, which is this case almost all of the time due to my severely unhealthy boundaries with scope. I'm trying to have conversations with her about it.
+
+[^4]: A post on lisps, fighting games, and homoiconicity has been brewing. One day I'll get some code down for that.
+# Lesson the Final: It Won't Make Itself
+The unsatisfying synthesis of the conclusions come to in this post is that I really, truly, just need to go start working on things. This post is being written during a time-dilatingly painful end of semester exam period (yes, I *am* procrastinating, thank you), and I hope that by the end of it -- around the middle of June -- I can start working on a fighting game that's been haunting me for a good three or more years. It'll take time; I write this in the wake of feeling *inspired* by Edmund McMillen saying "[for Gish] within a month or two, we had a tile engine made, the physics were done..."[^5] and taking solace in the knowledge that **making games is hard and takes time.** This post falls into a long lineage of times-I've-written-down-plans, but I hope with a great deal of my heart that posting this in public and leveraging the knowledge I've accrued in years of yak-shaving will help make this my first real project that gets off the ground. Here's to hoping!
+# Footnotes, Errata
+- Writing this has reminded me that I dearly need to make some sort of place to collate quotes I find influential. Perhaps keeping this in the public eye would be a good idea? An extension to this website, perhaps?
+- This post was an attempt at gegttin myself back to writing after a long, long sabbatical. I'm well aware the prose is full of problems. The muscles are stiff and old.
+
+[^5] At timestamp 9:30, Apple Podcasts. (2019, May 23). _The organized chaos of Edmund McMillen_. https://podcasts.apple.com/ie/podcast/19-the-organized-chaos-of-edmund-mcmillen/id1435365252?i=1000439159484:page/title Lessons Learned
+:blog-post/tags [:blog :programming :gamedev]
+:blog-post/author {:person/id avery}
+:open-graph/title Lessons Learned
+:page/body
+> In which the girl recounts knowledge accrued in her floundering.
+# Lesson the First: Nobody Knows What They're Doing
+It is *intensely* easy to convince oneself that other developers have a handle on some esoteric knowledgebase you will never hope to be privy to. It's something I find myself continuing to do despite my best efforts.[^1] This is, however, untrue. People never really know what they're doing unless they are extremely intimate with a specific domain -- and in one like fighting games, the amount of people this describes is probably on the low side of triple digits. Even within this domain, many people do not have familiarity with every cog that drives a studio like *French Bread* or *Arc System Works*. 
+
+In talking with fighting (and other) game developers over the years, one of the greatest lessons I've learned is that the people who really make things tend to be the ones who bite off more than they can chew, then keep chewing.[^2] This (alongside years upon years of thinking and research) gives me the gall to think I can actually attempt a fighting game now. At this point, I suppose, it's about being confident that I truly know what I'm getting myself into. Alongside this, the beginnings of a formal education in games design and development (and observations of general malaise in my local fighting game scene towards modern games' directions) has given me a decent boost in confidence that my ideas probably aren't awful. And that there are fellow sickos out there. [^3]
+
+[^1]: I think part of this is seeing so many people on the internet focused on correctness. These people likely aren't making many things and know much less about what's going on than they put on, but a Reddit account makes it very easy to project unearned self-confidence.  
+[^2]: This is consistent with the [Cult of Done's](https://web.archive.org/web/20240204025105/https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13) approach to things.
+[^3]: I'm not sure where I first heard the term *sicko game* -- perhaps in a Dragons Dogma 2 review? Regardless, I find it extremely useful for describing the kinds of no-mass-appeal game design I can become obsessed with.
+# Lesson the Second: Oh, This Is Hard
+Modern fighting games are embarassingly complex endeavours for how simple their basic premise is. You must serialise state at least sixty times a second, roll custom networking and physics, and write an entirely deterministic cross-platform simulation to be taken seriously by the community. All of this needs to be wrapped inside dev tooling that permits fast iteration and easy patch-pushing. This section is to be kept intentionally brief in service of not having five thousand words of technical ranting -- that will be saved for another time.[^4]
+
+The long and short of it is that I will need to roll a lot of custom code, tooling, and data structures, which I'll be doing in Godot with a great deal of assistance from David Snopek's work. Custom tooling over things like [Ikemen](https://github.com/ikemen-engine/Ikemen-GO/) and [Castagne](http://castagneengine.com/) is especially necessary if I'd like to do my own fancy things, which is this case almost all of the time due to my severely unhealthy boundaries with scope. I'm trying to have conversations with her about it.
+
+[^4]: A post on lisps, fighting games, and homoiconicity has been brewing. One day I'll get some code down for that.
+# Lesson the Final: It Won't Make Itself
+The unsatisfying synthesis of the conclusions come to in this post is that I really, truly, just need to go start working on things. This post is being written during a time-dilatingly painful end of semester exam period (yes, I *am* procrastinating, thank you), and I hope that by the end of it -- around the middle of June -- I can start working on a fighting game that's been haunting me for a good three or more years. It'll take time; I write this in the wake of feeling *inspired* by Edmund McMillen saying "[for Gish] within a month or two, we had a tile engine made, the physics were done..."[^5] and taking solace in the knowledge that **making games is hard and takes time.** This post falls into a long lineage of times-I've-written-down-plans, but I hope with a great deal of my heart that posting this in public and leveraging the knowledge I've accrued in years of yak-shaving will help make this my first real project that gets off the ground. I certainly hope this is the case.
+# Footnotes, Errata
+- Writing this has reminded me that I dearly need to make some sort of place to collate quotes I find influential. Perhaps keeping this in the public eye would be a good idea? An extension to this website, perhaps?
+- This post was also an attempt at getting myself back to writing after a long, long sabbatical. I'm well aware the prose is full of problems. The muscles are stiff and old.
+
+[^5]: At timestamp 9:30, Apple Podcasts. (2019, May 23). _The organized chaos of Edmund McMillen_. https://podcasts.apple.com/ie/podcast/19-the-organized-chaos-of-edmund-mcmillen/id1435365252?i=1000439159484
