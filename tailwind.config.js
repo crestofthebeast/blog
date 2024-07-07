@@ -4,17 +4,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+      'deep-black': '#000000',
       'gentle-black': '#372326',
-      'sepia' : '#ffead8',
+      'gentle-white': '#ccc7c0',
+      'sepia': '#ffead8',
+      'off-white': '#d3c6aa',
       'hl-sepia' : '#fad8bf',
-      'leaf-green' : '#00704f',
-      'fire-red' : '#8f2f30',
+      'leaf-green' : '#83c092',
+      'fire-red' : '#e67e6f',
+      'pale-blue': '#7fbbb3'
       },
       fontFamily: {
+        'ibm-plex-serif': ['IBM Plex Serif', 'font-serif'],
         'ibm-plex-sans': ['IBM Plex Sans', 'sans-serif'],
         'teranoptia': ['Teranoptia']
       },
-      textColor: 'light-grey',
+      textColor: 'off-white',
       typography: theme => ({
         DEFAULT: {
           css: {
@@ -31,10 +36,13 @@ module.exports = {
             'a:hover': {
               // color: theme('colors.pale-blue')
             },
+            '--tw-prose-bold': theme('colors.pale-blue'),
+            '--tw-prose-code': theme('colors.pale-blue'),
             '--tw-prose-headings': theme('colors.fire-red'),
             '--tw-prose-links': theme('colors.leaf-green'),
-            '--tw-prose-quote-borders': theme('colors.hl-sepia'),
-            '--tw-prose-body': theme('colors.gentle-black'),
+            '--tw-prose-quotes': theme('colors.fire-red'),
+            '--tw-prose-quote-borders': theme('colors.off-white'),
+            '--tw-prose-body': theme('colors.off-white'),
           }
         },
         invert: {}

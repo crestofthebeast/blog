@@ -454,7 +454,7 @@ h1,
   .prose h1 {
   font-size: 26px;
   margin-top: 0;
-  margin-bottom:;
+  margin-bottom: 4px;
 }
 
 h2,
@@ -469,6 +469,20 @@ h3,
   font-size: 22px;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+aside {
+  padding: 1rem;
+  margin: 0 0 0 .5rem;
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
 }
 
 .footnotes hr {
@@ -941,20 +955,20 @@ h3,
 }
 
 .prose {
-  --tw-prose-body: #372326;
-  --tw-prose-headings: #8f2f30;
+  --tw-prose-body: #d3c6aa;
+  --tw-prose-headings: #e67e6f;
   --tw-prose-lead: #4b5563;
-  --tw-prose-links: #00704f;
-  --tw-prose-bold: #111827;
+  --tw-prose-links: #83c092;
+  --tw-prose-bold: #7fbbb3;
   --tw-prose-counters: #6b7280;
   --tw-prose-bullets: #d1d5db;
   --tw-prose-hr: #e5e7eb;
-  --tw-prose-quotes: #111827;
-  --tw-prose-quote-borders: #fad8bf;
+  --tw-prose-quotes: #e67e6f;
+  --tw-prose-quote-borders: #d3c6aa;
   --tw-prose-captions: #6b7280;
   --tw-prose-kbd: #111827;
   --tw-prose-kbd-shadows: 17 24 39;
-  --tw-prose-code: #111827;
+  --tw-prose-code: #7fbbb3;
   --tw-prose-pre-code: #e5e7eb;
   --tw-prose-pre-bg: #1f2937;
   --tw-prose-th-borders: #d1d5db;
@@ -1113,6 +1127,10 @@ h3,
   display: flex;
 }
 
+.contents {
+  display: contents;
+}
+
 .hidden {
   display: none;
 }
@@ -1157,19 +1175,14 @@ h3,
   border-bottom-width: 1px;
 }
 
-.border-gentle-black {
+.border-off-white {
   --tw-border-opacity: 1;
-  border-color: rgb(55 35 38 / var(--tw-border-opacity));
+  border-color: rgb(211 198 170 / var(--tw-border-opacity));
 }
 
-.bg-hl-sepia {
+.bg-deep-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 216 191 / var(--tw-bg-opacity));
-}
-
-.bg-sepia {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 234 216 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-8 {
@@ -1188,8 +1201,8 @@ h3,
   padding-right: 0.5rem;
 }
 
-.font-ibm-plex-sans {
-  font-family: IBM Plex Sans, sans-serif;
+.font-ibm-plex-serif {
+  font-family: IBM Plex Serif, font-serif;
 }
 
 .font-teranoptia {
@@ -1201,9 +1214,9 @@ h3,
   line-height: 1;
 }
 
-.text-gentle-black {
+.text-off-white {
   --tw-text-opacity: 1;
-  color: rgb(55 35 38 / var(--tw-text-opacity));
+  color: rgb(211 198 170 / var(--tw-text-opacity));
 }
 
 .outline-none {
@@ -1211,10 +1224,20 @@ h3,
   outline-offset: 2px;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 @font-face {
   font-family: "IBM Plex Sans";
 
   src: url("fonts/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+
+  src: url("fonts/IBMPlexSerif-Regular.ttf");
 }
 
 @font-face {
