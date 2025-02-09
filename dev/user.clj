@@ -7,10 +7,6 @@
   blog/config)  ;; 1
 
 (comment
-  (def p (p/open {:launcher :vs-code}))
-  {:hello #{:world :mars :venus}
-   :goodbye #{:love :my-only-friend}}
-
   (comment
     (set! *print-namespace-maps* false)
 
