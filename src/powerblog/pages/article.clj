@@ -4,5 +4,5 @@
 
 (defn render-page [context page]
   (layout/layout {}
-          [
+          [:article
            (md/render-html (:page/body page))]))

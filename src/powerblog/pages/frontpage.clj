@@ -11,7 +11,6 @@
             db)
        (map #(d/entity db %))))
 
-
 (defn render-page [context page]
   (let [blog-posts (get-blog-posts (:app/db context))]
     (layout/layout {:title "blackmoonkite"}

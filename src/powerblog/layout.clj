@@ -3,6 +3,7 @@
 (def header
   [:header.navbar
    [:nav
+    [:h1.title-logo "BLACKMOONKITE"]
     [:ul
      [:li
       [:a {:href "/"} "home"]]]

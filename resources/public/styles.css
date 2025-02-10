@@ -29,6 +29,16 @@ nav {
   align-items: center;
   justify-content: end;
   flex-direction: row;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+.title-logo {
+  margin-right: auto
+}
+
+p {
+  margin: 0.33rem 0;
 }
 
 ul {
@@ -39,7 +49,46 @@ h1 {
   margin: 2px
 }
 
-.focus\:bg-hl-sepia\/40:focus {
-  background-color: rgb(250 216 191 / 0.4);
+article {
+  margin: auto 18vw;
+  padding-left: 2vw;
+  padding-top: 1vw;
 }
 
+/* asides from https://scripter.co/sidenotes-using-only-css/ */
+aside {
+    font-size: 80%;
+    position: relative;
+}
+/* Wide viewport */
+@media (min-width: 1400px) {
+  aside {
+    float: left;
+    clear: left;
+    margin-left: -23vw;
+    text-align: left;
+
+    top: -3rem;
+    width: 20vw;
+    margin-top: 1rem;
+  }
+  article {
+    width: 40vw;
+    border-left: solid;
+    border-left-width: 1px;
+  }
+}
+/* Narrow viewport */
+@media (max-width: 1400px) {
+  aside {
+    float: left;
+    text-align: left;
+
+    width: 100%;
+    margin: 0.33rem 0;
+    padding-left: 15%;
+  }
+  article {
+    margin: auto;
+  }
+}
