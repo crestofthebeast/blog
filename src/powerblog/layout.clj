@@ -11,10 +11,15 @@
      [:li
       [:a {:href "/about/"} "about"]]]]])
 
+(def footer
+  [:footer
+   [:p "Footer."]])
+
 (defn layout [{:keys [title]} & content]
   [:html
    header
    [:head
     (when title [:title title])]
    [:body
-    content]])
+    content]
+   ])
