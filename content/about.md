@@ -22,14 +22,14 @@ Outside of programming and games development, I read and write with a voracity t
 <sidenote> <sub>3</sub> I'm sometimes told that I tend towards "big words" and general verbosity, but I point to my parents' allowance of five-year-old me to read the dictionary in bed as the source of these logorrheaic tendencies.
 </sidenote>
 The aforementioned father supplied my appetite for words in stacks of books, including Terry Pratchett. Growing up reading him has had a severe influence on my view of the world and the way that I write. More contemporary influences of mine include Mark Z Danielewski[^1], Seth Dickinson[^2], and Jeff Vandermeer[^3]. Essays I'm happy enough with to post here are forthcoming, but nonfiction influences of mine include [Jacob Geller](https://www.youtube.com/@JacobGeller/videos) and [Austin Walker](https://www.clockworkworlds.com/)<sub>4</sub>.
-<sidenote><sub>4</sub>whose nonfiction influence on me is for another page.</sidenote>
-
+<sidenote><sub>4</sub>Whose nonfiction influence on me is for another page.</sidenote>
+I'm also very passionate about input devices. I own several nontraditional ones: ergonomic keyboards, a stenotype machine, trackballs, a rollermouse -- just to name a few. I'll have a post eventually for those who want to witness my sicknesses.
 
 
 
 ### Contact / Socials
 You can find me under several names in several places. Namely [Mastodon](https://mastodon.gamedev.place/@crestofthebeast), [Twitter](https://twitter.com/blackmoonkite), and [Github](https://github.com/crestofthebeast).
-You can contact me at inquire@blackmoonkite.cc.
+You can contact me for any reason at all at inquire@blackmoonkite.cc. Ask me about my keyboards. Or fighting games.
 
 [^1]: House of leaves has had a severe impact on the way I write and think about writing, and its layout influenced this website's styling. I think often of the house on Ashtree Lane, and as of 25-02-11 am drafting several pieces of writing referencing the book across myriad topics. I strongly recommend you pick up a **physical** copy.
 [^2]: I would be remiss not to mention the 'Baru Cormorant' series, but my allegiances truly lie with the physical copy of [Marasenna](https://www.ishtar-collective.net/categories/book-marasenna) on my bookshelf. Some of the best characters and worlds I've ever had the privilege of digesting, some that inspire me still to dust off the games writer in my brain-heart. His writing is a major element of what made Destiny's world the magical thing that it is.
