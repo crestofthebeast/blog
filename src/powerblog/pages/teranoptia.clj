@@ -5,7 +5,7 @@
 
 (defn render-page [context page]
   (layout/layout {:title "Teranoptia Playground"}
-                 [:article.prose.max-w-screen-lg.mx-auto
+                 [:article
                   (md/render-html (:page/body page))
                   [:blockquote
                    {:class "min-h-96 pl-0 font-teranoptia break-all text-wrap text-6xl focus:bg-hl-sepia/40 outline-none my-0"

@@ -18,9 +18,9 @@
 ;;  Description
 ;;
 ;;; Code:
-((setq
-  (cider-clojure-cli-aliases . "-A:dev")
-  (cider-preferred-build-tool . clojure-cli)))
+(setq
+ (cider-clojure-cli-aliases . "-M:dev")
+ (cider-preferred-build-tool . clojure-cli))
 
 
 (provide '.dir_locals)

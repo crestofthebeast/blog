@@ -11,11 +11,10 @@
             db)
        (map #(d/entity db %))))
 
-
 (defn render-page [context page]
   (let [blog-posts (get-blog-posts (:app/db context))]
     (layout/layout {:title "blackmoonkite"}
-             [:article.prose.max-w-screen-md.mx-auto
+             [:article
               (md/render-html (:page/body page))
               [:h2 [:i18n ::blog-posts {:n (count blog-posts)}]]
               [:ul

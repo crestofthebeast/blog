@@ -4,5 +4,6 @@
 
 (defn render-page [context page]
   (layout/layout {}
-          [:article.prose.max-w-screen-md.mx-auto
-           (md/render-html (:page/body page))]))
+        [:div.article-container
+          [:article
+           (md/render-html (:page/body page))]]))
